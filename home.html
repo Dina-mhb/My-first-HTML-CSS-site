@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+     <style>
+        html,body{
+            width: 100%;
+            min-height: 100%;
+            margin: 0;
+        }
+        body{
+         background-image:url("pic/20241213_141319_112639634.jpg");
+         background-size: 100% 100%;
+         background-attachment: fixed;
+         background-repeat: no-repeat;   
+            
+        }
+        #container{
+        width: 100%; 
+        min-height: 100%;
+        } 
+        #header{
+            height: 100px;
+            font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+            font-size: 3em;
+            text-align: center;
+            line-height: 100px;
+            color: #959595;
+        }  
+        #hr1{
+             width: 99%;
+             margin: auto;
+        }
+        #nav ul {
+            list-style: none;
+            top: 200px;
+            margin-left: 50px;
+        }
+        #nav li {
+            display: inline-block;
+            width: 150px;
+            height: 50px;
+            text-align: center;
+            font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+            font-size: 1.3em;
+            line-height: 50px;
+            border-right: 1px solid #D9D9D9;
+        }
+        #nav #li1{
+            border-right:0;
+            
+        }
+        #nav a {
+            display: block;
+            width: 150px;
+            height: 50px;
+            color: #B9B9B9;
+        }
+        #nav a:link {
+            text-decoration: none;
+        }
+        #nav a:hover{
+            background-color: rgba(125,125,125,0.12);
+            text-decoration: underline;
+            border-radius: 5px;
+            color: #D0C9C9;
+        }
+         #dv3{
+             width: 1000px;
+             height: 300px;
+             font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+             font-size: 2em;
+             color: #A3A3A3;
+             padding: 50px;
+             box-shadow: 0px 0px 35px rgba(127,127,127,0.76);
+             margin: auto;
+         }
+         #main{
+             width: 100%;
+             height:1300px; 
+             position: relative;
+         }
+         #main ul{
+             position: absolute;
+            list-style-type:none;
+         }
+         #main li{
+             width: 300px;
+             height: 200px;
+             margin-bottom: 50px;
+             font-size: 3em;
+             color:#ADADAD;
+             font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+             line-height: 200px;
+         }
+         .li1{
+               border-right: 2px solid rgba(165,165,165,0.56);
+              
+         }
+         .img1{
+             width: 200px;
+             height: 200px;
+             border-radius: 5px;
+             filter: grayscale(100%)
+
+         }
+         .img1:hover{
+             filter: grayscale(0%)
+         }
+         #img2:hover{
+               box-shadow: 3px -3px 30px #2B3164,-3px 3px 30px #934501 ;
+         }
+          #img3:hover{
+               box-shadow:0px 0px 30px #C57E41 ;
+         }
+          #img4:hover{
+               box-shadow:0px 0px 30px #323063 ;
+         }
+         #ul2{
+             position: absolute;
+             left:310px;
+         }
+         #main a {
+             display: block;
+             width: 200px;
+             height: 200px;
+             float: left;
+         }
+         #footer{
+             border-top: 2px solid rgba(201,201,201,0.75);
+             height: 50px;
+             font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+             font-size: 1em;
+             color: #E5E5E5;
+         }
+         #span1{
+             margin-left: 50px;
+         }
+         #footer a{
+             text-decoration: none;
+             color: #E5E5E5;
+         }
+         #footer a:hover{
+             color: #525252;
+             text-decoration: underline;
+         }
+    </style>
+<meta charset="utf-8">
+<title>home</title>
+</head>
+
+<body>
+     <div id="container">
+     <div id="header">Star Basics</div>  
+      <hr id="hr1" size="2" color="#B3B2B2"/>   
+    <div id="nav">
+     <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="a.html">Details</a></li>
+        <li><a href="b.html">Resume</a></li>
+        <li id="li1"><a href="d.html" >About us</a></li>
+    </ul>
+       </div>
+         <br/><br/><br/><br/><br/><br/><br/>
+        <div id="main">
+            <div id="dv3"><p>Astronomers estimate that the universe could contain up to one septillion stars – that’s a one followed by 24 zeros. Our Milky Way alone contains more than 100 billion, including our most well-studied star, the Sun.
+
+Stars are giant balls of hot gas – mostly hydrogen, with some helium and small amounts of other elements. Every star has its own life cycle, ranging from a few million to trillions of years, and its properties change as it ages.</p></div>
+            <br/><br/><br/><br/><br/>
+            <ul>
+            <li class="li1"><a href="a.html"><img src="pic/Carina_Nebula-1.jpeg" class="img1" id="img2"/></a></li>
+            <li class="li1"><a href="b.html"><img src="pic/2.jpeg" class="img1" id="img3"/></a></li>
+            <li class="li1"><a href="c.html"><img src="pic/The_Helix_Nebula-1.jpeg" class="img1" id="img4"/></a></li>
+            </ul>
+            <ul id="ul2">
+            <li>Birth</li>
+            <li>Life</li>
+            <li>Death</li>
+            </ul>
+         </div>
+         <div id="footer">
+         <span id="span1">Source : </span><a href="https://science.nasa.gov/universe/stars/#:~:text=Stars%20are%20giant%20balls%20of,properties%20change%20as%20it%20ages.">NASA-Science</a>
+         </div>
+         
+</div>     
+</body>
+</html>
